@@ -12,8 +12,12 @@ resources:
 
   - pitstop-gateway-depl.yaml
 
-  - pitstop-vehicle-depl.yaml
+  - pitstop-vehicule-depl.yaml
 
   - vehicle-database-depl.yaml
 
   - workshop-database-depl.yaml
+  
+  - pitstop-webapp-depl.yaml
+
+  - pitstop-webapp.yaml
