@@ -18,6 +18,3 @@ resources:
 
   - workshop-database-depl.yaml
   
-  - pitstop-webapp-depl.yaml
-
-  - pitstop-webapp.yaml
