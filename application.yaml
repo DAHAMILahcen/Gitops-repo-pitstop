@@ -1,0 +1,22 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: application-pitstop
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/DAHAMILahcen/Gitops-repo-pitstop.git
+    targetRevision: HEAD
+    path: infrastructure
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: pitstop
+  syncPolicy:
+    syncOptions:
+    - CreateNamespace=true
+
+    automated:
+      selfHeal: true
+      prune: true
+
