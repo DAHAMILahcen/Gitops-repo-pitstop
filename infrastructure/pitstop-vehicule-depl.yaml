@@ -28,26 +28,7 @@ spec:
   type: ClusterIP
   selector:
     app: pitstop-vehicle
----
-
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: pitstop-vehicle-depl
-  namespace: pitstop
-spec:
-  replicas: 3
-  selector:
-    matchLabels:
-      app: pitstop-vehicle
-  template:
-    metadata:
-      labels:
-        app: pitstop-vehicle
-    spec:
-      containers:
-        - name: pitstop-vehicle
-          image: 
+--- 
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -71,8 +52,4 @@ spec:
           envFrom:
             - configMapRef:
                 name: pitstop-vehicle-configmap
-          ports:
-            - containerPort: 3002
-          envFrom:
-            - configMapRef:
-                name: pitstop-vehicle-configmap
+          
