@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: pitstop-webapp
-          image: dahami03/pitstop-webapp:48ae74d2dc67f04cb723de2d7eef89eea90a8238:f6bdfc16b33ec2e7971d8605079afd938d01b7c9:1e0f316074e929aaf785d0d83a7b431bae772b96
+          image: dahami03/pitstop-webapp:48ae74d2dc67f04cb723de2d7eef89eea90a8238
           ports:
             - containerPort: 8080
           envFrom:
