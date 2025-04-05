@@ -1,2 +1,2 @@
-this repo containe a set oc configuration of cluster of pitstop microservices application 
+# Mise en Production de Microservices avec DevOps (Gitops)
 
