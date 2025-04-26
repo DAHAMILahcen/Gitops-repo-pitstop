@@ -2,4 +2,4 @@
 
 ##Project Workflow:
 
-![Logo de mon projet](images/Capture d'écran 2025-04-25 171133)
+![Logo de mon projet](images/Capture d'écran 2025-04-25 171133.png)
