@@ -1,4 +1,4 @@
-# Mise en Production de Microservices avec DevOps (Gitops)
+# Mise en Production de Microservices avec Gitops
 
 ##Project Workflow:
 
